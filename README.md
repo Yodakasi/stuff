@@ -32,5 +32,5 @@ Stack implementation using array
 ## Operating systems
 All of the programs that use system features.
 
-###fork and system call
+### fork and system call
 Using fork it creates child process that waits for parent to send system call, when a system call arrives it sets the flag and prints message.
