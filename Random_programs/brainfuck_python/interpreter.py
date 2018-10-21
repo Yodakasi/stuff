@@ -34,7 +34,7 @@ def main():
     f = open(sys.argv[1], "r")
     code = f.read()
     var_count = init_vars(code)
-    variables = [0] * (var_count+1)
+    variables = [0]
     i = 0
     pc = 0
     loop_start = [0]
@@ -52,6 +52,8 @@ def main():
                 loop_start.pop()
         elif code[pc] == '>':
             i = i + 1
+            if len(variables) < i + 1:
+                variables.append(0)
         elif code[pc] == '<':
             i = i - 1
         elif code[pc] == '+':
