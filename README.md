@@ -29,6 +29,9 @@ Stack implementation using struct
 ### stack_on_array
 Stack implementation using array
 
+### single_neuron_training
+Single neuron training algorithm written in python, matrix calculations done in numpy
+
 ## Operating systems
 All of the programs that use system features.
 
