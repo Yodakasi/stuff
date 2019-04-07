@@ -7,6 +7,9 @@
 ### print.asm
 Basic output handling
 
+### open.asm
+Open and read file
+
 #### Compilation
 To compile run:
 ```shell
